@@ -1,0 +1,55 @@
+site_name: Math
+site_description: Deeply reinforcing math
+site_author: Alexander Lindholm
+site_url: https://math.alexanderlindholm.net
+repo_url: https://github.com/Alex0424/math
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.math
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+
+  - Geometry:
+    - Circles: geometry/circles.md
+  
+  - Algebra: algebra.md
+  - Functions: functions.md
+  - Trigonometry: trigonometry.md
+  - Derivatives: derivatives.md
+  - Integrals: integrals.md
+  - Probability: probability.md
