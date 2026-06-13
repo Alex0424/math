@@ -1,5 +1,6 @@
 mkdocs
 mkdocs-material
 pymdown-extensions
+mkdocs-mermaid2-plugin
 numpy
 matplotlib

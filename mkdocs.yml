@@ -32,7 +32,11 @@ markdown_extensions:
       generic: true
 
   - pymdownx.highlight
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: "!!python/name:mermaid2.fence_mermaid_custom"
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -43,13 +47,14 @@ extra_css:
 
 nav:
   - Home: index.md
-
-  - Geometry:
-    - Circles: geometry/circles.md
   
-  - Algebra: algebra.md
-  - Functions: functions.md
-  - Trigonometry: trigonometry.md
-  - Derivatives: derivatives.md
-  - Integrals: integrals.md
-  - Probability: probability.md
+  - Aritmetik & Algebra:
+    - MGN: arithmetic_algebra/mgn.md
+    - Algebra Basics: arithmetic_algebra/algebra_basics.md
+    - Numbers: arithmetic_algebra/tal.md
+    - Sju räknesätten: arithmetic_algebra/sju_räknesätten.md
+    - Prioriterings-reglerna: arithmetic_algebra/prioriterings_reglerna.md
+
+  - Potenser:
+    - potenslagar: potenser/potenslagar.md
+    - potensekvationer: potenser/potensekvationer.md
