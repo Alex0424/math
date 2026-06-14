@@ -1,4 +1,4 @@
-# MGN - Minsta Gemensamma Nämnare
+# MGN - Minsta Gemensamma Nämnare (för addition och subtraktion)
 
 MGN för $\frac{1}{6} + \frac{1}{8}$
 

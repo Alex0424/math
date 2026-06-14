@@ -49,12 +49,16 @@ nav:
   - Home: index.md
   
   - Aritmetik & Algebra:
+    - Procent & Förändringsfaktorn: arithmetic_algebra/procent.md # <-----------
     - MGN: arithmetic_algebra/mgn.md
+    - Bråk: arithmetic_algebra/bråk.md
     - Algebra Basics: arithmetic_algebra/algebra_basics.md
+    - Negativa Tal: arithmetic_algebra/negativa_tal.md
     - Numbers: arithmetic_algebra/tal.md
     - Sju räknesätten: arithmetic_algebra/sju_räknesätten.md
     - Prioriterings-reglerna: arithmetic_algebra/prioriterings_reglerna.md
+    - Avrunda: arithmetic_algebra/avrunda.md
 
   - Potenser:
+    - potensekvationer: potenser/potensekvationer.md # <-------
     - potenslagar: potenser/potenslagar.md
-    - potensekvationer: potenser/potensekvationer.md
